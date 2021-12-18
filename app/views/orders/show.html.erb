@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Total paid:</strong>
+  <%= @order.total_paid %>
+</p>
+
+<p>
+  <strong>Int:</strong>
+  <%= @order.int %>
+</p>
+
+<p>
+  <strong>Gst:</strong>
+  <%= @order.GST %>
+</p>
+
+<p>
+  <strong>Int:</strong>
+  <%= @order.int %>
+</p>
+
+<p>
+  <strong>Pst:</strong>
+  <%= @order.PST %>
+</p>
+
+<p>
+  <strong>Int:</strong>
+  <%= @order.int %>
+</p>
+
+<p>
+  <strong>Hst:</strong>
+  <%= @order.HST %>
+</p>
+
+<p>
+  <strong>Int:</strong>
+  <%= @order.int %>
+</p>
+
+<p>
+  <strong>Order status:</strong>
+  <%= @order.order_status_id %>
+</p>
+
+<%= link_to 'Edit', edit_order_path(@order) %> |
+<%= link_to 'Back', orders_path %>
